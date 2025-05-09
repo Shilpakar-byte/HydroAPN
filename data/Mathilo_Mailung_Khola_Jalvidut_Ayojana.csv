@@ -1,0 +1,84 @@
+Project Location,
+Province,Bagmati
+District,Rasuwa
+Headworks,"Uttargaya Rural Municipality ward no. 1, Rare"
+Powerhouse,"Uttargaya Rural Municipality ward no. 1, Gyangsilung"
+Geographical Co-ordinates,
+Latitude,28º 05’53” N to 28º08’00” N
+Longitude,85º11’00” E to 85º13’00” E
+General,
+Name of river,Mailung
+Nearest Town,Trishuli Bajar
+Operation Type,Based on river flow
+Gross head,495 m
+Connected Capacity,14.3 MW
+Average annual energy,79.67 GW Hour
+Hydrology,
+Watershed area,72 km
+Average water flow,4.17 cubic meter per sec
+Estimated flow,3.53 cubic meter per sec (Q40)
+Environmental flow,0.06 cubic meter per sec
+Design flood (1:100 years),112 cubic meter per sec
+Diversion weir,
+Weir type,Boulder lined weir
+Length,20 m
+Height,2.5 m
+Crest elevation,2049 m
+Intake,Bottom intake/side intake
+Size of bottom intake,1.2 m (width) × 1.5 m (length)
+Approach culvert/tunnel,
+Type,RCC rectangular
+Length,25.86 m (with gravel trap)
+Measurement,2.0 m × 1.5 m
+Settling basin,
+Type,"Hopper type, Conventional Flushing"
+Number of chamber,2
+Measurement of the structure (L×B×H),55 m × 5.5 m × 4.5 m
+Headrace Tunnel,
+Type,"Free flow, Inverted D-shaped"
+Length,1736 m
+Diameter,2.4 m
+Forebay,
+Type,"Rectangular, Concrete"
+Measurement of structure (L×B×H),15 m × 6 m × 9 m
+Penstock Pipe,
+Type,Steel pipe (supported)
+Length,1172.5 m
+Diameter,1.2 m
+Thickness,6-36 mm;45 and 80 mm (for reducer)
+Powerhouse,
+Type,Surface
+Measurement of structure (L×B×H),28.7 m × 10.8 m × 13.5 m
+Surface of the ground (Turbine Center Level),1553.5 m amsl
+Tailrace canal,
+Type,"Rectangular, Box Culvert"
+Measurement of structure (L×B×H),35 m × 1.2 m × 1.5 m
+Turbine,
+Type,Horizontal Axis Pelton
+Number,2
+Capacity per turbine,7500 KW
+Efficiency,89%
+Switchyard,
+Type,GIS
+Governor,
+Type,Electro-hydraulic with PID
+Generator,
+Type,"Synchronous, three phase"
+Capacity,8425 × 2 kVA
+Power factor,0.85
+Voltage,11 kV
+Frequency,50 Hz
+Number,2
+Excitation System,Brushless
+Efficiency,95.50%
+Transformer,
+Type,"Three phase, oil immersed"
+Capacity,8400 kVA × 2
+Voltage ratio,132/11 kV
+Efficiency,99%
+Transmission system,
+Voltage,132 kV
+Length,11 km
+Starting point,Powerhouse
+End point,Trishuli 3B Hub substation
+Conductor,BEAR
