@@ -9,7 +9,7 @@ from utils import load_hydropower_data, load_rainfall_data, load_salient_feature
 st.title("Hydropower Project Explorer")
 
 # Load hydropower points
-hydro_df = load_hydropower_data("hydropower_points/hydropower_list.csv")
+hydro_df = load_hydropower_data("hydropower_points/Hydropower_list.csv")
 
 # Sidebar selection
 project_names = hydro_df["Name"].unique()
