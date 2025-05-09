@@ -21,7 +21,13 @@ st.markdown("### All Hydropower Projects")
 
 # Define the main map
 m = folium.Map(location=[27.7, 85.3], zoom_start=8, control_scale=True)
-folium.TileLayer('Esri Satellite').add_to(m)  # Add satellite layer
+folium.TileLayer(
+    tiles="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    attr="Tiles © Esri — Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
+    name="Esri Satellite",
+    overlay=False,
+    control=True
+).add_to(m)
 folium.LayerControl().add_to(m)
 
 # Loop through each hydropower project and add a dynamic small marker
