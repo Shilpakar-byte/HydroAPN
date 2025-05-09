@@ -21,7 +21,7 @@ selected_project = st.sidebar.selectbox("Select a Hydropower Project", project_n
 st.markdown("### All Hydropower Projects")
 
 # Define the main map
-m = folium.Map(location=[27.7, 85.3], zoom_start=8, control_scale=True)
+m = folium.Map(location=[27.7, 85.3], zoom_start=8, control_scale=False)
 
 # Add satellite tile
 folium.TileLayer(
