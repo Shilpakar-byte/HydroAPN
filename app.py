@@ -25,7 +25,7 @@ m = folium.Map(location=[27.7, 85.3], zoom_start=8)  # Adjust the center of the 
 for _, project in hydro_df.iterrows():
     lat, lon = project["Latitude"], project["Longitude"]
     project_name = project["Name"]
-    license_type = project["License_Type"]  # Assuming the column is named "License_Type"
+    license_type = project["License Type"]  # Assuming the column is named "License_Type"
     
     # Assign color based on license type
     if license_type == "Survey":
