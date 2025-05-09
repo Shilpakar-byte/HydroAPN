@@ -46,7 +46,7 @@ for _, project in hydro_df.iterrows():
     ).add_to(m)
 
 # Display the map
-st_data = st_folium(m, width=700, height=500)
+st_data = st_folium(m, width=1000, height=700)
 
 # Selected project details
 st.subheader(f"📍 {selected_project.replace('_', ' ')}")
