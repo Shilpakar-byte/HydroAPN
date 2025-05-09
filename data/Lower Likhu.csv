@@ -1,0 +1,123 @@
+Name of the project,Lower Likhu Hydropower Project
+Developer,Swet Ganga Hydropower & Construction Ltd.
+Name of the River,Likhu River
+Type of scheme,Run-of-River
+Project location,Saipu and Bijulikot VDC's of Ramechhap District and Tarkerabari of Okhaldunga District
+Zone,Janakpur Zone
+Development region,Central Development Region
+Nearest road-head,Up to Sirise at Headworks
+,Up to Ratamate at Powerhouse
+Climate,Sub-tropical
+Average temperature,Maximum : 36.3 0C in May
+,Minimum : 4.30C in January
+GEOGRAPHICAL COORDINATES,
+Latitude,270 22’ 47” N to 270 25’ 50” N (Generation license)
+Longitude,860 13’ 17” E to 860 15’ 38” E (Generation license)
+HYDRO-METEOROLOGY,
+Average annual rainfall,1796 mm
+Catchment area at intake,717.54 km2
+Annual mean flow,42.29 m3/s
+Maximum mean monthly flow,125.12 m3/s
+Minimum mean monthly flow,8.84 m3/s
+Design discharge,29.75 m3/s
+Flood discharge,737 m3/s
+WEIR,
+Type,Concrete ogee
+Crest elevation,742.00 m amsl
+Length,53 m
+Max Dam height (from existing ground),5.5 m
+UNDERSLUICE,
+Type,Radial Gate Mechanism
+Number of bays,2
+"Size, B x H",6.0 x 6.0 m (each)
+Sill level,734.0 m amsl
+INTAKE,
+Type,Side intake
+No. of orifice,4
+"Size, B x H",3.5 x 2.8 m (each opening)
+Intake sill level,738.00 m amsl
+GRAVEL TRAP AND GRAVEL FLUSHING,
+Type,Surface
+Number of bays,2
+"Size, L x B x H",11.0 x 8.0 x 7.4 m (each)
+Size of Flushing pipe,1.5 m dia. (each)
+APPROACH CULVERT,
+Type,Pressurized culvert
+Number of branches,4
+"Size, B x H (m)",2.4 x 2.5 m (each)
+Length,"83 m (Branch 1st), 68.50 m (Branch 2nd)"
+SETTLING BASIN,
+Type,Conventional
+Numbers,2
+Size L x B x H,65 m x 6.7 m x 8.0 m (each basin)
+Length of inlet transition (m),51.50 m
+Particle size to be settled (mm),0.2
+Flushing system,Intermittent
+"Size of Flushing canal, B x H (m)",2.0 x 1.5 m (each)
+HEADRACE PIPE,
+Pipe Material,Mild Steel
+Internal Diameter (m),3.75
+Length,304 m
+HEADRACE TUNNEL,
+Type of Flow,Pressurized
+Geometry,Inverted D-shape
+Length (m),4965
+Size (without payline),4.9 x 4.9 m
+KHOLSI CROSSING (SYPHON),
+SETI KHOLSI CROSSING,
+Length,218.7 m
+Internal Diameter of pipe (m),3.75 m
+POKU KHOLSI CROSSING,
+Length,243.5 m
+Internal Diameter of pipe (m),3.75 m
+SURGE TANK,
+Height,46.5 m (from invert)
+Diameter,12 m
+PENSTOCK,
+Pipe Material,Mild Steel
+Length,191 m
+Diameter,3.75 / 2.65 m
+POWERHOUSE,
+Type,Semi-surface
+Length x Width x Height,33.3 m x 21.7 m x 27 m
+Turbine setting level,623.00 m amsl (center line)
+TAILRACE,
+Type,Box culvert
+Length,210 m
+Height,3.35 m
+Width,4 m
+TURBINE,
+Type,"Francis, vertical axis"
+Numbers,2
+Rated output capacity per unit,15 MW
+Efficiency,91.00%
+GOVERNOR,
+Type,Electronic PID control
+Adjustment for speed drop,Between 0 to 5%
+GENERATOR,
+Type,"Three phase, Synchronous"
+No of units,2
+Power factor,0.85
+Voltage,11 kV
+Frequency,50 Hz
+Excitation system,Brushless
+Efficiency,97%
+TRANSFORMER,
+Type,"Three phase, Oil immersed"
+No of units,2
+Frequency,50 Hz
+Rated output capacity per unit,17 MVA
+Voltage ratio,11 kV/ 132 kV
+Efficiency,99%
+SWITCHYARD AND TRANSMISSION LINE,
+Switchyard type,"Outdoor, conventional"
+Transmission line length,23 km
+Voltage level and circuit,132 and single circuit
+Conductor,ACSR “WOLF”
+POWER AND ENERGY,
+Gross head,118.0 m
+Net head at design flow,Approx. 112.64 m
+Installed capacity,28.1 MW
+Dry energy,30.94 GWh
+Wet energy,139.89 GWh
+Average annual gross energy,170.84 GWh
