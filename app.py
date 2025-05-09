@@ -9,7 +9,7 @@ from utils import load_hydropower_data, load_rainfall_data, load_salient_feature
 st.title("Hydropower Project Explorer")
 
 # Load hydropower points
-hydro_df = load_hydropower_data("hydropower_points/hydropower_points.csv")
+hydro_df = load_hydropower_data("hydropower_points/hydropower_list.csv")
 
 # Sidebar selection
 project_names = hydro_df["Name"].unique()
@@ -35,7 +35,7 @@ except FileNotFoundError:
 
 # Show rainfall plot
 st.markdown("### Rainfall Data")
-rainfall_df = load_rainfall_data("rainfall/rainfall_data_2024.csv")
+rainfall_df = load_rainfall_data("rainfall/Rainfall.csv")
 
 # Process date
 rainfall_df["Date"] = pd.to_datetime(rainfall_df[["year", "month", "day"]])
