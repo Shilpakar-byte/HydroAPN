@@ -26,7 +26,7 @@ m = folium.Map(location=[27.7, 85.3], zoom_start=8, control_scale=True)
 # Add satellite tile
 folium.TileLayer(
     tiles="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-    attr="Tiles © Esri — Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
+    attr="Tiles © Esri",
     name="Esri Satellite",
     overlay=False,
     control=True
@@ -42,15 +42,19 @@ for _, project in hydro_df.iterrows():
     # Set marker color
     if license_type == "Survey":
         marker_color = 'red'
-    elif license_type == "Construction":
+    elif license_type == "Operation":
         marker_color = 'blue'
     else:
         marker_color = 'green'
 
-    folium.Marker(
-        [lat, lon],
-        popup=project_name,
-        icon=folium.Icon(color=marker_color, icon='circle')
+    folium.CircleMarker(
+        location=[lat, lon],
+        radius=4,  # Smaller size
+        color=marker_color,
+        fill=True,
+        fill_color=marker_color,
+        fill_opacity=0.9,
+        popup=project_name
     ).add_to(m)
 
 # Add legend using safe HTML
@@ -79,7 +83,8 @@ m.get_root().html.add_child(Element(legend_html))
 st_data = st_folium(m, width=1100, height=600)
 
 # Selected project details
-st.markdown("### Selected Project Information")
+st.markdown("### Selected Project Information", unsafe_allow_html=True)
+st.markdown('<div style="margin-top:-50px;"></div>', unsafe_allow_html=True)
 selected_project_data = hydro_df[hydro_df["Name"] == selected_project].iloc[0]
 selected_lat, selected_lon = selected_project_data["Latitude"], selected_project_data["Longitude"]
 
