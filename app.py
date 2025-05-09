@@ -78,7 +78,7 @@ legend._template = Template(legend_html)
 m.get_root().add_child(legend)
 
 # Show map
-st_data = st_folium(m, width=900, height=600)
+st_data = st_folium(m, width=900)
 
 # Selected project details
 st.markdown("### Selected Project Information")
