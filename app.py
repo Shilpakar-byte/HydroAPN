@@ -30,7 +30,7 @@ for _, project in hydro_df.iterrows():
     # Assign color based on license type
     if license_type == "Survey":
         marker_color = 'red'
-    elif license_type == "Construction":
+    elif license_type == "Operation":
         marker_color = 'blue'
     else:  # Operation or others
         marker_color = 'green'
