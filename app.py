@@ -50,6 +50,23 @@ st_data = st_folium(m, width=1000, height=700)
 
 # Selected project details
 st.subheader(f"📍 {selected_project.replace('_', ' ')}")
+st.markdown("""
+    <div style="display: flex; gap: 20px;">
+        <div style="display: flex; align-items: center;">
+            <div style="width: 12px; height: 12px; background-color: red; border-radius: 50%; margin-right: 5px;"></div>
+            <span>Survey</span>
+        </div>
+        <div style="display: flex; align-items: center;">
+            <div style="width: 12px; height: 12px; background-color: blue; border-radius: 50%; margin-right: 5px;"></div>
+            <span>Construction</span>
+        </div>
+        <div style="display: flex; align-items: center;">
+            <div style="width: 12px; height: 12px; background-color: green; border-radius: 50%; margin-right: 5px;"></div>
+            <span>Operation</span>
+        </div>
+    </div>
+""", unsafe_allow_html=True)
+
 
 # Show salient features (inside expander)
 with st.expander("📌 Salient Features"):
