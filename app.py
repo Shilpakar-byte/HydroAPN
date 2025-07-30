@@ -90,7 +90,7 @@ selected_lat, selected_lon = selected_project_data["Latitude"], selected_project
 
 # Zoomed-in map
 m_selected = folium.Map(location=[selected_lat, selected_lon], zoom_start=11)
-st.markdown(f"**Coordinates:** {selected_lat:.6f}° N, {selected_lon:.6f}° E")
+st.markdown(f"**Coordinates:** {selected_lat:.6f}, {selected_lon:.6f}")
 
 folium.TileLayer(
     tiles="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
